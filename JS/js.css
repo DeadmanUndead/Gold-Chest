@@ -1,0 +1,40 @@
+html {
+    background: rgb(161,168,161);
+    background: linear-gradient(180deg, rgba(161,168,161,1) 0%, rgba(210,141,63,1) 71%, rgba(93,67,34,1) 96%, rgb(77, 50, 7) 100%);
+}
+
+body {
+    grid-template-areas: 
+    "header"
+    "sword"
+    "axe"
+    "bow";
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sword {
+    grid-area: sword;
+    display: flex;
+}
+
+#axe {
+    grid-area: axe;
+    display: flex;
+}
+
+#bow {
+    grid-area: bow;
+    display: flex;
+}
+
+img {
+    margin: 0px;
+    height: 200px;
+    width: 250px;
+    margin-right: 10px;
+}
